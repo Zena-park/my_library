@@ -4,16 +4,22 @@
 
 export {
   TonStakingProvider,
-} from './provider'
+} from '../provider'
 
 export {
   type TonStakingProviderProps,
   TonStakingContext,
-} from './context'
+} from '../context'
+
+// export {
+//   type UseTonStakingPublicClientParameters,
+//   type UseTonStakingPublicClientReturnType,
+//   useTonStakingPublicClient,
+// } from '../hooks/useTonStakingPublicClient.js'
 
 export {
   useReadTon,
-} from './hooks/useReadTon'
+} from '../hooks/useReadTon'
 
 
 // biome-ignore lint/performance/noBarrelFile: entrypoint module
@@ -468,4 +474,4 @@ export {
 // Version
 ////////////////////////////////////////////////////////////////////////////////
 
-export { version } from './version.js'
+export { version } from '../version.js'
